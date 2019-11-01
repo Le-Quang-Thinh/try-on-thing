@@ -1,25 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Manocanh from './components/manocanh/manocanh';
+import GroupButton from './components/shop/GroupButton';
+import Tabconter from "./components/shop/Tabcontent";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <GroupButton></GroupButton>
+    <Tabconter></Tabconter>
+    <Manocanh></Manocanh>
+
+    </>
+
+
+    // </div>
   );
 }
 
